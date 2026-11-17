@@ -1,0 +1,9 @@
+jester: raters 11067 items 150 observed 0.608
+fold 3 (random): raters train 9960 test 1107; items train 120 test 30; pop_img r on unseen items 0.575
+./.venv/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+       r_pop_seen  r_pop_unseen  r_popimg_unseen  r_amort_seen  r_amort_unseen
+n_est                                                                         
+10          0.339         0.350            0.209         0.340           0.219
+20          0.335         0.350            0.211         0.336           0.220
+50          0.325         0.365            0.224         0.328           0.235

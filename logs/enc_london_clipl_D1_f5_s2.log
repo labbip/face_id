@@ -1,0 +1,11 @@
+fold 5: raters train 2250 test 251; faces train 81 test 21; pop_img r on unseen faces 0.777
+ep 0 loss 0.9640
+ep 100 loss 0.7140
+ep 200 loss 0.7137
+ep 299 loss 0.7138
+       r_pop_seen  r_pop_unseen  r_popimg_unseen  r_amort_seen  r_amort_unseen  r_direct_seen  r_direct_unseen
+n_est                                                                                                         
+5           0.569         0.655            0.494         0.477           0.483          0.414            0.420
+10          0.569         0.655            0.494         0.507           0.500          0.459            0.485
+20          0.569         0.655            0.494         0.524           0.529          0.502            0.532
+40          0.570         0.655            0.494         0.526           0.537          0.511            0.547

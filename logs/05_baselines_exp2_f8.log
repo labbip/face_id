@@ -1,0 +1,22 @@
+./.venv/lib/python3.12/site-packages/sklearn/manifold/_mds.py:735: FutureWarning: The default value of `init` will change from 'random' to 'classical_mds' in 1.10. To suppress this warning, provide some value of `init`.
+  warnings.warn(
+./.venv/lib/python3.12/site-packages/sklearn/manifold/_mds.py:752: FutureWarning: The `dissimilarity` parameter is deprecated and will be removed in 1.10. Use `metric` instead.
+  warnings.warn(
+./.venv/lib/python3.12/site-packages/sklearn/manifold/_mds.py:760: FutureWarning: Use metric_mds=False instead of metric=False. The support for metric={True/False} will be dropped in 1.10.
+  warnings.warn(
+blend weight chosen on training participants: 0.5 {0.2: np.float64(0.352), 0.3: np.float64(0.363), 0.4: np.float64(0.37), 0.5: np.float64(0.374), 0.6: np.float64(0.373), 0.7: np.float64(0.367)}
+rho_hold_agg            0.268
+rho_tr_all_agg          0.312
+rho_tr_unseen_agg       0.309
+rho_hold_estrdm         0.297
+rho_tr_all_estrdm       0.315
+rho_tr_unseen_estrdm    0.309
+rho_hold_blend          0.327
+rho_tr_all_blend        0.316
+rho_tr_unseen_blend     0.309
+rho_hold_rw5            0.299
+rho_tr_all_rw5          0.325
+rho_tr_unseen_rw5       0.322
+rho_hold_mds5           0.270
+rho_tr_all_mds5         0.317
+rho_tr_unseen_mds5      0.315

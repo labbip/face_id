@@ -1,0 +1,50 @@
+text -> z  out-of-fold R^2 per dim: [0.156 0.12  0.137 0.158] | corr per dim: [0.397 0.355 0.378 0.398]
+z from arrangements    hold rho 0.232
+z_text                 hold rho 0.207
+z from word count      hold rho 0.199
+population (z=0)       hold rho 0.198
+text -> z  out-of-fold R^2 per dim: [-0.003  0.158  0.16   0.138] | corr per dim: [0.095 0.404 0.402 0.372]
+z from arrangements    hold rho 0.226
+z_text                 hold rho 0.215
+z from word count      hold rho 0.209
+population (z=0)       hold rho 0.208
+text -> z  out-of-fold R^2 per dim: [0.127 0.103 0.219 0.003] | corr per dim: [0.359 0.35  0.482 0.141]
+z from arrangements    hold rho 0.224
+z_text                 hold rho 0.201
+z from word count      hold rho 0.189
+population (z=0)       hold rho 0.186
+text -> z  out-of-fold R^2 per dim: [0.177 0.153 0.141 0.183] | corr per dim: [0.445 0.405 0.391 0.443]
+z from arrangements    hold rho 0.230
+z_text                 hold rho 0.204
+z from word count      hold rho 0.193
+population (z=0)       hold rho 0.191
+text -> z  out-of-fold R^2 per dim: [0.024 0.023 0.025 0.027] | corr per dim: [0.19  0.187 0.192 0.203]
+z from arrangements    hold rho 0.204
+z_text                 hold rho 0.204
+z from word count      hold rho 0.203
+population (z=0)       hold rho 0.204
+text -> z  out-of-fold R^2 per dim: [ 0.119 -0.061  0.063  0.107] | corr per dim: [ 0.359 -0.005  0.281  0.343]
+z from arrangements    hold rho 0.216
+z_text                 hold rho 0.198
+z from word count      hold rho 0.197
+population (z=0)       hold rho 0.198
+text -> z  out-of-fold R^2 per dim: [0.222 0.177 0.215 0.21 ] | corr per dim: [0.472 0.421 0.465 0.458]
+z from arrangements    hold rho 0.222
+z_text                 hold rho 0.208
+z from word count      hold rho 0.200
+population (z=0)       hold rho 0.195
+text -> z  out-of-fold R^2 per dim: [ 0. -0. -0. -0.] | corr per dim: [-0.078 -0.086 -0.069 -0.081]
+z from arrangements    hold rho 0.193
+z_text                 hold rho 0.193
+z from word count      hold rho 0.193
+population (z=0)       hold rho 0.193
+text -> z  out-of-fold R^2 per dim: [0.028 0.118 0.164 0.122] | corr per dim: [0.201 0.344 0.419 0.35 ]
+z from arrangements    hold rho 0.240
+z_text                 hold rho 0.214
+z from word count      hold rho 0.202
+population (z=0)       hold rho 0.196
+text -> z  out-of-fold R^2 per dim: [0.106 0.081 0.057 0.029] | corr per dim: [0.326 0.29  0.244 0.238]
+z from arrangements    hold rho 0.248
+z_text                 hold rho 0.216
+z from word count      hold rho 0.209
+population (z=0)       hold rho 0.208

@@ -1,0 +1,51 @@
+Installed 60 packages in 152ms
+text -> z  out-of-fold R^2 per dim: [0.142 0.147 0.155 0.15 ] | corr per dim: [0.383 0.386 0.397 0.387]
+z_arr                  hold rho 0.242
+z_text                 hold rho 0.214
+z_wc                   hold rho 0.202
+pop                    hold rho 0.201
+text -> z  out-of-fold R^2 per dim: [-0.029  0.157  0.152  0.143] | corr per dim: [0.071 0.405 0.391 0.379]
+z_arr                  hold rho 0.225
+z_text                 hold rho 0.211
+z_wc                   hold rho 0.207
+pop                    hold rho 0.206
+text -> z  out-of-fold R^2 per dim: [0.122 0.082 0.226 0.04 ] | corr per dim: [0.359 0.298 0.493 0.206]
+z_arr                  hold rho 0.229
+z_text                 hold rho 0.208
+z_wc                   hold rho 0.197
+pop                    hold rho 0.193
+text -> z  out-of-fold R^2 per dim: [0.189 0.18  0.147 0.202] | corr per dim: [0.457 0.44  0.406 0.465]
+z_arr                  hold rho 0.248
+z_text                 hold rho 0.229
+z_wc                   hold rho 0.219
+pop                    hold rho 0.218
+text -> z  out-of-fold R^2 per dim: [0.023 0.021 0.024 0.027] | corr per dim: [0.179 0.172 0.185 0.2  ]
+z_arr                  hold rho 0.199
+z_text                 hold rho 0.199
+z_wc                   hold rho 0.198
+pop                    hold rho 0.199
+text -> z  out-of-fold R^2 per dim: [ 0.107 -0.043  0.071  0.102] | corr per dim: [0.348 0.042 0.294 0.339]
+z_arr                  hold rho 0.230
+z_text                 hold rho 0.206
+z_wc                   hold rho 0.204
+pop                    hold rho 0.205
+text -> z  out-of-fold R^2 per dim: [0.218 0.172 0.208 0.201] | corr per dim: [0.468 0.414 0.457 0.45 ]
+z_arr                  hold rho 0.219
+z_text                 hold rho 0.201
+z_wc                   hold rho 0.192
+pop                    hold rho 0.188
+text -> z  out-of-fold R^2 per dim: [ 0. -0. -0. -0.] | corr per dim: [-0.085 -0.061 -0.072 -0.048]
+z_arr                  hold rho 0.175
+z_text                 hold rho 0.175
+z_wc                   hold rho 0.175
+pop                    hold rho 0.176
+text -> z  out-of-fold R^2 per dim: [0.032 0.131 0.172 0.135] | corr per dim: [0.207 0.365 0.43  0.371]
+z_arr                  hold rho 0.230
+z_text                 hold rho 0.204
+z_wc                   hold rho 0.195
+pop                    hold rho 0.190
+text -> z  out-of-fold R^2 per dim: [0.11  0.078 0.048 0.043] | corr per dim: [0.333 0.282 0.233 0.262]
+z_arr                  hold rho 0.239
+z_text                 hold rho 0.212
+z_wc                   hold rho 0.207
+pop                    hold rho 0.206

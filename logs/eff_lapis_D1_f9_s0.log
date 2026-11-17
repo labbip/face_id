@@ -1,0 +1,7 @@
+fold 9: raters train 498 test 55; images train 9379 test 2344; train ratings 200653
+       r_pop_seen  r_amort_seen  r_direct_seen  r_pop_unseen  r_amort_unseen  r_direct_unseen
+n_est                                                                                        
+10          0.456         0.526          0.511         0.459           0.516            0.494
+20          0.454         0.539          0.523         0.459           0.542            0.529
+50          0.457         0.576          0.584         0.459           0.578            0.584
+100         0.459         0.585          0.593         0.459           0.584            0.591

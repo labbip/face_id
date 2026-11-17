@@ -1,0 +1,27 @@
+real exp2: {'splithalf_all': 0.3167, 'splithalf_fold0': 0.3019, 'splithalf_fold0_first200': 0.3019, 'hold_pop_all': 0.3005, 'hold_pop_fold0': 0.2901, 'n_all': 1682, 'n_fold0': 169} (12 s)
+  wsd 2.150 noise 0.465 splithalf 0.3168 hold_pop 0.2712 rho(true,pop) 0.531
+  wsd 1.225 noise 0.399 splithalf 0.3168 hold_pop 0.3631 rho(true,pop) 0.691
+  wsd 1.688 noise 0.435 splithalf 0.3168 hold_pop 0.3108 rho(true,pop) 0.598
+  wsd 1.919 noise 0.451 splithalf 0.3166 hold_pop 0.2894 rho(true,pop) 0.562
+  wsd 1.803 noise 0.443 splithalf 0.3167 hold_pop 0.2997 rho(true,pop) 0.579
+  wsd 1.745 noise 0.439 splithalf 0.3168 hold_pop 0.3051 rho(true,pop) 0.589
+  wsd 1.774 noise 0.441 splithalf 0.3168 hold_pop 0.3025 rho(true,pop) 0.584
+  wsd 1.789 noise 0.442 splithalf 0.3167 hold_pop 0.3010 rho(true,pop) 0.582
+  wsd 1.796 noise 0.443 splithalf 0.3167 hold_pop 0.3004 rho(true,pop) 0.581
+sim D1: wsd 1.792 eps 8.000 rho(true,pop) 0.581 | noise 0.4424 -> splithalf all 0.3168 fold0 0.3191 | hold_pop(true population RDM) all 0.3007 fold0 0.3028 (1568 s)
+./src/face_id/train.py:93: UserWarning: index_reduce() is in beta and the API may change at any time. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/Indexing.cu:1469.)
+  t2p = torch.zeros(E["n_trials"], dtype=torch.long, device=dev).index_reduce_(0, E["tidx"], E["pidx"], "amax", include_self=False)
+  model D1: hold pop 0.2384 amortized 0.4833 direct 0.4866 oracle 0.5196 | true pop 0.448 amortized 0.913 direct 0.918 (1649 s)
+  model D2: hold pop 0.3013 amortized 0.4810 direct 0.4749 oracle 0.5196 | true pop 0.570 amortized 0.912 direct 0.897 (1729 s)
+  wsd 2.150 noise 0.406 splithalf 0.3167 hold_pop 0.3619 rho(true,pop) 0.531
+  wsd 3.075 noise 0.406 splithalf 0.3167 hold_pop 0.3619 rho(true,pop) 0.443
+  wsd 3.538 noise 0.406 splithalf 0.3167 hold_pop 0.3619 rho(true,pop) 0.414
+  wsd 3.769 noise 0.406 splithalf 0.3167 hold_pop 0.3619 rho(true,pop) 0.402
+  wsd 3.884 noise 0.406 splithalf 0.3167 hold_pop 0.3619 rho(true,pop) 0.396
+  wsd 3.942 noise 0.406 splithalf 0.3167 hold_pop 0.3619 rho(true,pop) 0.394
+  wsd 3.971 noise 0.406 splithalf 0.3167 hold_pop 0.3619 rho(true,pop) 0.392
+  wsd 3.986 noise 0.406 splithalf 0.3167 hold_pop 0.3619 rho(true,pop) 0.392
+  wsd 3.993 noise 0.406 splithalf 0.3167 hold_pop 0.3619 rho(true,pop) 0.391
+sim D2: wsd 3.996 eps 8.000 rho(true,pop) 0.391 | noise 0.4059 -> splithalf all 0.3167 fold0 0.3106 | hold_pop(true population RDM) all 0.3619 fold0 0.3553 (1557 s)
+  model D1: hold pop 0.3918 amortized 0.3918 direct 0.3979 oracle 0.5191 | true pop 0.741 amortized 0.741 direct 0.751 (1636 s)
+  model D2: hold pop 0.3903 amortized 0.4304 direct 0.4401 oracle 0.5191 | true pop 0.729 amortized 0.807 direct 0.833 (1717 s)

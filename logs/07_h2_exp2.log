@@ -1,0 +1,29 @@
+ D1-M4-amortized vs D0-M4-amortized      rho_hold 1682     0.0392 0.0024 0.0000      0.0000
+ D2-M4-amortized vs D1-M4-amortized      rho_hold 1682     0.0022 0.0021 0.3107      0.6364
+ D3-M4-amortized vs D2-M4-amortized      rho_hold 1682    -0.0036 0.0021 0.0980      0.1237
+ D2-M4-amortized vs D0-M4-amortized      rho_hold 1682     0.0414 0.0024 0.0000      0.0000
+D3-M16-amortized vs D2-M4-amortized      rho_hold 1682    -0.0037 0.0024 0.1263      0.3741
+  D3-M16-direct vs D3-M16-amortized      rho_hold 1682     0.0110 0.0016 0.0000      0.0000
+D1-M16-amortized vs D1-M4-amortized      rho_hold 1682     0.0042 0.0023 0.0694      0.0496
+   D3-M16-direct vs D2-M4-amortized      rho_hold 1682     0.0073 0.0026 0.0047      0.0025
+ D1-M4-amortized vs D0-M4-amortized rho_tr_unseen 1682     0.0334 0.0021 0.0000      0.0000
+ D2-M4-amortized vs D1-M4-amortized rho_tr_unseen 1682     0.0019 0.0010 0.0715      0.0376
+ D3-M4-amortized vs D2-M4-amortized rho_tr_unseen 1682    -0.0026 0.0012 0.0232      0.0117
+ D2-M4-amortized vs D0-M4-amortized rho_tr_unseen 1682     0.0353 0.0023 0.0000      0.0000
+D3-M16-amortized vs D2-M4-amortized rho_tr_unseen 1682    -0.0081 0.0014 0.0000      0.0000
+  D3-M16-direct vs D3-M16-amortized rho_tr_unseen 1682    -0.0148 0.0018 0.0000      0.0000
+D1-M16-amortized vs D1-M4-amortized rho_tr_unseen 1682     0.0018 0.0007 0.0133      0.0053
+   D3-M16-direct vs D2-M4-amortized rho_tr_unseen 1682    -0.0229 0.0019 0.0000      0.0000
+ceiling-normalised held-out rho (model mean / split-half mean of estimation trials):
+          method  hold_over_ceiling
+ D0-M4-amortized              0.955
+ D1-M4-amortized              1.094
+    D1-M4-direct              1.090
+D1-M16-amortized              1.095
+   D1-M16-direct              1.090
+ D2-M4-amortized              1.095
+    D2-M4-direct              1.099
+ D3-M4-amortized              1.080
+    D3-M4-direct              1.083
+D3-M16-amortized              1.078
+   D3-M16-direct              1.114

@@ -1,0 +1,100 @@
+dataset,evaluation,metric,unseen,contrast,delta,sem,n
+"Xu Exp. 2 (diverse faces, arrangement)",held-out trials,$\rho$,False,D1-D0,0.03924692880137355,0.0024024590503642826,1682
+"Xu Exp. 2 (diverse faces, arrangement)",held-out trials,$\rho$,False,D2-D1,0.002169707454385352,0.00213977437348705,1682
+"Xu Exp. 2 (diverse faces, arrangement)",held-out trials,$\rho$,False,D3-D2,-0.003552030001178736,0.0021453315870991847,1682
+"Xu Exp. 2 (diverse faces, arrangement)",held-out trials,$\rho$,False,D2-D0,0.04141663625575891,0.002427716105392809,1682
+"Xu Exp. 2 (diverse faces, arrangement)","retest, unseen faces",$\rho$,True,D1-D0,0.03338432294448074,0.0021136105033452385,1682
+"Xu Exp. 2 (diverse faces, arrangement)","retest, unseen faces",$\rho$,True,D2-D1,0.0018755662263836733,0.001040180601172646,1682
+"Xu Exp. 2 (diverse faces, arrangement)","retest, unseen faces",$\rho$,True,D3-D2,-0.0026399967791072834,0.001162189177012613,1682
+"Xu Exp. 2 (diverse faces, arrangement)","retest, unseen faces",$\rho$,True,D2-D0,0.035259889170864415,0.0022825986887493625,1682
+"Xu Exp. 1 (White faces, arrangement)",held-out trials,$\rho$,False,D1-D0,0.0009842954762956787,0.0018474581705225353,1751
+"Xu Exp. 1 (White faces, arrangement)",held-out trials,$\rho$,False,D2-D1,0.018436505493714585,0.002104388875623125,1751
+"Xu Exp. 1 (White faces, arrangement)",held-out trials,$\rho$,False,D3-D2,0.000902526406499762,0.0019625775628024375,1751
+"Xu Exp. 1 (White faces, arrangement)",held-out trials,$\rho$,False,D2-D0,0.019420800970010265,0.002075959241673282,1751
+"Xu Exp. 1 (White faces, arrangement)","retest, unseen faces",$\rho$,True,D1-D0,0.00048473307987626407,0.0003465580016099035,1267
+"Xu Exp. 1 (White faces, arrangement)","retest, unseen faces",$\rho$,True,D2-D1,0.007914331684465883,0.0017335219297511986,1267
+"Xu Exp. 1 (White faces, arrangement)","retest, unseen faces",$\rho$,True,D3-D2,-0.003592768334731188,0.0012347747990542623,1267
+"Xu Exp. 1 (White faces, arrangement)","retest, unseen faces",$\rho$,True,D2-D0,0.008399064764342148,0.0017837143138374686,1267
+London Set (attractiveness ratings),"held-out faces, 20 est.",$r$,False,D1-D0,0.032546241097202465,0.0012869309317194173,2501
+London Set (attractiveness ratings),"held-out faces, 20 est.",$r$,False,D2-D1,0.0007378469940466499,0.00047780784503688044,2501
+London Set (attractiveness ratings),"held-out faces, 20 est.",$r$,False,D3-D2,-0.00019418400632154073,0.00020906300234769726,2501
+London Set (attractiveness ratings),"held-out faces, 20 est.",$r$,False,D2-D0,0.03328408809124911,0.0014358316228579204,2501
+London Set (attractiveness ratings),"unseen faces (image), 20 est.",$r$,True,D1-D0,0.026969590919779057,0.0017184949342833073,2483
+London Set (attractiveness ratings),"unseen faces (image), 20 est.",$r$,True,D2-D1,0.0005293293032368459,0.0003115768424099503,2483
+London Set (attractiveness ratings),"unseen faces (image), 20 est.",$r$,True,D3-D2,-0.2386812733746629,0.003785634791489731,2483
+London Set (attractiveness ratings),"unseen faces (image), 20 est.",$r$,True,D2-D0,0.027498920223015904,0.0017044225371722348,2483
+AVFS 56 faces (similarity triplets),"held-out triplets, 20 est.",acc.,False,D1-D0,0.06137030903968254,0.0036144957839432824,504
+AVFS 56 faces (similarity triplets),"held-out triplets, 20 est.",acc.,False,D2-D1,-0.008683338503968255,0.0012010440617185763,504
+AVFS 56 faces (similarity triplets),"held-out triplets, 20 est.",acc.,False,D3-D2,0.010117144831349205,0.0017734589004814684,504
+AVFS 56 faces (similarity triplets),"held-out triplets, 20 est.",acc.,False,D2-D0,0.05268697053571429,0.0038107006111954235,504
+"AVFS 4,921 faces (similarity, image)","held-out triplets, 20 est.",acc.,False,D1-D0,0.019121709103663287,0.0012832211992606355,1283
+"AVFS 4,921 faces (similarity, image)","held-out triplets, 20 est.",acc.,False,D2-D1,-0.0016685639672642247,0.0005745318662330156,1283
+"AVFS 4,921 faces (similarity, image)","held-out triplets, 20 est.",acc.,False,D3-D2,-0.06267220597038192,0.001401378234662136,1283
+"AVFS 4,921 faces (similarity, image)","held-out triplets, 20 est.",acc.,False,D2-D0,0.017453145136399065,0.0013772245256526497,1283
+"AVFS 4,921 faces (similarity, image)","unseen 56 faces, all est.",acc.,True,D1-D0,0.05453482385451505,0.0032296354795041155,598
+"AVFS 4,921 faces (similarity, image)","unseen 56 faces, all est.",acc.,True,D2-D1,0.004191452784280936,0.00094217264974219,598
+"AVFS 4,921 faces (similarity, image)","unseen 56 faces, all est.",acc.,True,D3-D2,-0.039806741655518396,0.001991266174689567,598
+"AVFS 4,921 faces (similarity, image)","unseen 56 faces, all est.",acc.,True,D2-D0,0.05872627663879599,0.00321622662195543,598
+"LAPIS (art aesthetics ratings, image)","held-out artworks, 20 est.",$r$,False,D1-D0,0.091919855226848,0.007548815602998556,553
+"LAPIS (art aesthetics ratings, image)","held-out artworks, 20 est.",$r$,False,D2-D1,0.011432830056473338,0.002039670061081761,553
+"LAPIS (art aesthetics ratings, image)","held-out artworks, 20 est.",$r$,False,D2-D0,0.10335268528332132,0.007898859492067438,553
+"LAPIS (art aesthetics ratings, image)","unseen artworks, 20 est.",$r$,True,D1-D0,0.09122925142694341,0.007735179040082616,553
+"LAPIS (art aesthetics ratings, image)","unseen artworks, 20 est.",$r$,True,D2-D1,0.010843569440418576,0.002246703974097474,553
+"LAPIS (art aesthetics ratings, image)","unseen artworks, 20 est.",$r$,True,D2-D0,0.10207282086736198,0.008178942058365717,553
+"AADB (photo aesthetics ratings, image)","held-out photographs, 20 est.",$r$,False,D1-D0,0.0066856927567574605,0.0062875880052289,68
+"AADB (photo aesthetics ratings, image)","held-out photographs, 20 est.",$r$,False,D2-D1,-0.00914089028387064,0.0030373355698913884,68
+"AADB (photo aesthetics ratings, image)","held-out photographs, 20 est.",$r$,False,D2-D0,-0.002455197527113178,0.0068325715922940835,68
+"AADB (photo aesthetics ratings, image)","unseen photographs, 20 est.",$r$,True,D1-D0,0.012556668862061124,0.007420289877508674,68
+"AADB (photo aesthetics ratings, image)","unseen photographs, 20 est.",$r$,True,D2-D1,-0.008004543776898831,0.0036013140885960402,68
+"AADB (photo aesthetics ratings, image)","unseen photographs, 20 est.",$r$,True,D2-D0,0.0045521250851622945,0.008393102731398499,68
+"EVA (photo aesthetics ratings, image)","held-out photographs, 20 est.",$r$,False,D1-D0,0.002905205532012827,0.002872372773113662,175
+"EVA (photo aesthetics ratings, image)","held-out photographs, 20 est.",$r$,False,D2-D1,-0.0002912726475373019,0.0030660902960567963,175
+"EVA (photo aesthetics ratings, image)","held-out photographs, 20 est.",$r$,False,D2-D0,0.002613932884475525,0.004094448015610645,175
+"EVA (photo aesthetics ratings, image)","unseen photographs, 20 est.",$r$,True,D1-D0,0.0025749823968398214,0.0035579784635773395,175
+"EVA (photo aesthetics ratings, image)","unseen photographs, 20 est.",$r$,True,D2-D1,0.003915050420880009,0.0041090378628027445,175
+"EVA (photo aesthetics ratings, image)","unseen photographs, 20 est.",$r$,True,D2-D0,0.006490032817719831,0.0051237577369048475,175
+"Jester (joke ratings, text)","held-out jokes, 20 est.",$r$,False,D1-D0,0.03916249230724067,0.0010367925639473876,10849
+"Jester (joke ratings, text)","held-out jokes, 20 est.",$r$,False,D2-D1,0.0037521220331714405,0.00035703890604842374,10849
+"Jester (joke ratings, text)","held-out jokes, 20 est.",$r$,False,D2-D0,0.04291461434041211,0.0011390218134555822,10849
+"SCUT-FBP5500 (face attractiveness, image)","held-out faces, 20 est.",$r$,False,D1-D0,-0.01189520327754723,0.0020397103727421684,60
+"SCUT-FBP5500 (face attractiveness, image)","held-out faces, 20 est.",$r$,False,D2-D1,-0.029470681943829416,0.0035516768802406947,60
+"SCUT-FBP5500 (face attractiveness, image)","held-out faces, 20 est.",$r$,False,D2-D0,-0.041365885221376644,0.0042102069828269485,60
+"FaceSim3D 2D (CFD faces, triplets)","held-out triplets, 20 est.",acc.,False,D1-D0,0.006494601361771942,0.001049930293493455,1219
+"FaceSim3D 2D (CFD faces, triplets)","held-out triplets, 20 est.",acc.,False,D2-D1,-0.0027555285808039368,0.0010697545461660625,1219
+"FaceSim3D 2D (CFD faces, triplets)","held-out triplets, 20 est.",acc.,False,D2-D0,0.0037390727809680055,0.0013047443600715406,1219
+"FaceSim3D 3D (CFD faces, triplets)","held-out triplets, 20 est.",acc.,False,D1-D0,0.009438770351377019,0.0011301808243428522,1053
+"FaceSim3D 3D (CFD faces, triplets)","held-out triplets, 20 est.",acc.,False,D2-D1,-0.004791829838556506,0.0010243382224497458,1053
+"FaceSim3D 3D (CFD faces, triplets)","held-out triplets, 20 est.",acc.,False,D2-D0,0.004646940512820511,0.0013567448915034743,1053
+London Set (attractiveness ratings),"held-out faces, 40 est.",$r$,False,D1-D0,0.041881090214856996,0.0013164444193171265,2501
+London Set (attractiveness ratings),"held-out faces, 40 est.",$r$,False,D2-D1,0.0009415145265166115,0.0005626440261417953,2501
+London Set (attractiveness ratings),"held-out faces, 40 est.",$r$,False,D3-D2,0.0010097349039459678,0.0002163722934547606,2501
+London Set (attractiveness ratings),"held-out faces, 40 est.",$r$,False,D2-D0,0.04282260474137361,0.0014910001474085423,2501
+AVFS 56 faces (similarity triplets),"held-out triplets, 60 est.",acc.,False,D1-D0,0.06658939359126984,0.0036141658858561015,504
+AVFS 56 faces (similarity triplets),"held-out triplets, 60 est.",acc.,False,D2-D1,-0.007180197309523811,0.0012578035347964175,504
+AVFS 56 faces (similarity triplets),"held-out triplets, 60 est.",acc.,False,D3-D2,0.013666047781746031,0.0018242089502430614,504
+AVFS 56 faces (similarity triplets),"held-out triplets, 60 est.",acc.,False,D2-D0,0.059409196281746034,0.0037680107825533923,504
+"AVFS 4,921 faces (similarity, image)","held-out triplets, all est.",acc.,False,D1-D0,0.027673452864380357,0.0012340691054087902,1283
+"AVFS 4,921 faces (similarity, image)","held-out triplets, all est.",acc.,False,D2-D1,0.0027403421161340596,0.0004992925273788889,1283
+"AVFS 4,921 faces (similarity, image)","held-out triplets, all est.",acc.,False,D3-D2,-0.05056281888542478,0.0014152189768155557,1283
+"AVFS 4,921 faces (similarity, image)","held-out triplets, all est.",acc.,False,D2-D0,0.030413794980514417,0.0012817282926333117,1283
+"SCUT-FBP5500 (face attractiveness, image)","held-out faces, 500 est.",$r$,False,D1-D0,0.0009031580644906889,0.0008059820162787936,60
+"SCUT-FBP5500 (face attractiveness, image)","held-out faces, 500 est.",$r$,False,D2-D1,0.005700939410546629,0.0013204838809207943,60
+"SCUT-FBP5500 (face attractiveness, image)","held-out faces, 500 est.",$r$,False,D2-D0,0.006604097475037318,0.0015230709277985002,60
+"FaceSim3D 2D (CFD faces, triplets)","held-out triplets, 60 est.",acc.,False,D1-D0,0.011377209015586545,0.0009404004207525206,1219
+"FaceSim3D 2D (CFD faces, triplets)","held-out triplets, 60 est.",acc.,False,D2-D1,0.0009545344954881045,0.0009668009087331414,1219
+"FaceSim3D 2D (CFD faces, triplets)","held-out triplets, 60 est.",acc.,False,D2-D0,0.01233174351107465,0.0011582172166876264,1219
+"FaceSim3D 3D (CFD faces, triplets)","held-out triplets, 60 est.",acc.,False,D1-D0,0.013257641006647674,0.0010302027707749918,1053
+"FaceSim3D 3D (CFD faces, triplets)","held-out triplets, 60 est.",acc.,False,D2-D1,-0.0020570275593542265,0.000909326563816874,1053
+"FaceSim3D 3D (CFD faces, triplets)","held-out triplets, 60 est.",acc.,False,D2-D0,0.011200613447293447,0.0011678078135126198,1053
+"LAPIS (art aesthetics ratings, image)","held-out artworks, 100 est.",$r$,False,D1-D0,0.1225146484332389,0.007631320947387772,551
+"LAPIS (art aesthetics ratings, image)","held-out artworks, 100 est.",$r$,False,D2-D1,0.02098288488138372,0.0017251105759119143,551
+"LAPIS (art aesthetics ratings, image)","held-out artworks, 100 est.",$r$,False,D2-D0,0.14349753331462264,0.00801938447045323,551
+"AADB (photo aesthetics ratings, image)","held-out photographs, 100 est.",$r$,False,D1-D0,0.02900664737340731,0.005793811767687275,55
+"AADB (photo aesthetics ratings, image)","held-out photographs, 100 est.",$r$,False,D2-D1,0.0029324441823187163,0.0019967534669841198,55
+"AADB (photo aesthetics ratings, image)","held-out photographs, 100 est.",$r$,False,D2-D0,0.031939091555726024,0.0054734791292259145,55
+"EVA (photo aesthetics ratings, image)","unseen photographs, 100 est.",$r$,True,D1-D0,0.01674869381616118,0.003561505147388869,175
+"EVA (photo aesthetics ratings, image)","unseen photographs, 100 est.",$r$,True,D2-D1,0.02042557871548406,0.0036054269914745935,175
+"EVA (photo aesthetics ratings, image)","unseen photographs, 100 est.",$r$,True,D2-D0,0.03717427253164524,0.004526460186544559,175
+"Jester (joke ratings, text)","held-out jokes, 50 est.",$r$,False,D1-D0,0.05598030587473075,0.0014978070202489127,5517
+"Jester (joke ratings, text)","held-out jokes, 50 est.",$r$,False,D2-D1,0.003577383009902614,0.0004318875521354826,5517
+"Jester (joke ratings, text)","held-out jokes, 50 est.",$r$,False,D2-D0,0.059557688884633364,0.0015824845401326948,5517

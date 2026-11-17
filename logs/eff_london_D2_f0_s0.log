@@ -1,0 +1,12 @@
+london: raters 2501 items 102 observed 1.000
+fold 0 (random): raters train 2250 test 251; items train 81 test 21; pop_img r on unseen items 0.836
+ep 0 loss 1.0327
+ep 100 loss 0.7127
+ep 200 loss 0.6834
+ep 299 loss 0.6781
+       r_pop_seen  r_pop_unseen  r_popimg_unseen  r_amort_seen  r_amort_unseen  r_direct_seen  r_direct_unseen
+n_est                                                                                                         
+5           0.564         0.651             0.55         0.548           0.531          0.423            0.397
+10          0.562         0.651             0.55         0.581           0.560          0.526            0.493
+20          0.560         0.651             0.55         0.585           0.562          0.557            0.514
+40          0.559         0.651             0.55         0.593           0.577          0.590            0.561

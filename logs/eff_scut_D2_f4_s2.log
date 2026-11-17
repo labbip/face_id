@@ -1,0 +1,9 @@
+scut: raters 60 items 5500 observed 1.000
+fold 4 (random): raters train 54 test 6; items train 4400 test 1100; pop_img r on unseen items 0.897
+       r_pop_seen  r_pop_unseen  r_popimg_unseen  r_amort_seen  r_amort_unseen  r_direct_seen  r_direct_unseen
+n_est                                                                                                         
+10          0.759         0.754            0.677         0.730           0.665          0.683            0.632
+20          0.759         0.754            0.677         0.702           0.656          0.732            0.664
+50          0.759         0.754            0.677         0.709           0.659          0.755            0.676
+100         0.759         0.754            0.677         0.745           0.675          0.758            0.676
+500         0.759         0.754            0.677         0.758           0.679          0.768            0.682

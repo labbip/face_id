@@ -1,0 +1,20 @@
+Downloading hf-xet (4.0MiB)
+Downloading tokenizers (3.2MiB)
+Downloading transformers (12.2MiB)
+Downloading cuda-bindings (6.8MiB)
+ Downloaded tokenizers
+ Downloaded hf-xet
+ Downloaded cuda-bindings
+ Downloaded transformers
+Installed 60 packages in 109ms
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 18585.21it/s]
+text -> z  out-of-fold R^2 per dim: [ 0.022  0.048  0.057  0.047  0.133  0.238  0.015  0.106  0.007  0.121
+  0.006  0.017  0.119  0.041 -0.011  0.013] | corr per dim: [0.178 0.236 0.265 0.231 0.369 0.493 0.158 0.339 0.121 0.351 0.121 0.133
+ 0.359 0.207 0.082 0.132]
+z from arrangements    hold rho 0.233
+z_text                 hold rho 0.214
+z from word count      hold rho 0.199
+population (z=0)       hold rho 0.195

@@ -1,0 +1,23 @@
+total 678968
+drwxrwxr-x 2 user user      4096 Oct 28 08:35 .
+drwxrwxr-x 3 user user      4096 Oct 28 08:35 ..
+-rw-rw-r-- 1 user user 103809024 Oct 28 08:35 EVA_together.zip.001
+-rw-rw-r-- 1 user user 103809024 Oct 28 08:35 EVA_together.zip.002
+-rw-rw-r-- 1 user user 103809024 Oct 28 08:35 EVA_together.zip.003
+-rw-rw-r-- 1 user user 103809024 Oct 28 08:35 EVA_together.zip.004
+-rw-rw-r-- 1 user user 103809024 Oct 28 08:35 EVA_together.zip.005
+-rw-rw-r-- 1 user user 103809024 Oct 28 08:35 EVA_together.zip.006
+-rw-rw-r-- 1 user user  72385748 Oct 28 08:35 EVA_together.zip.007
+5101
+~/.cache/uv/archive-v0/yc-aGlbmXZvHBNR0/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 700
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+~/.cache/uv/archive-v0/yc-aGlbmXZvHBNR0/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 34377
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+~/.cache/uv/archive-v0/yc-aGlbmXZvHBNR0/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 34675
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+~/.cache/uv/archive-v0/yc-aGlbmXZvHBNR0/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 33723
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+~/.cache/uv/archive-v0/yc-aGlbmXZvHBNR0/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 37724
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+images with files 4070 of 4070
+(4070, 512)

@@ -1,0 +1,36 @@
+fold 0 seed 0 done
+fold 0 seed 1 done
+fold 1 seed 0 done
+fold 1 seed 1 done
+fold 2 seed 0 done
+fold 2 seed 1 done
+fold 3 seed 0 done
+fold 3 seed 1 done
+fold 4 seed 0 done
+fold 4 seed 1 done
+fold 5 seed 0 done
+fold 5 seed 1 done
+fold 6 seed 0 done
+fold 6 seed 1 done
+fold 7 seed 0 done
+fold 7 seed 1 done
+fold 8 seed 0 done
+fold 8 seed 1 done
+fold 9 seed 0 done
+fold 9 seed 1 done
+reproduces 55: max |gap_model - gap_free_d1| = 9.97e-17, max |cos_model - cos_pop| = nan
+jester: 10849 raters (rater x model rows 21698); per-rater means over fold models/seeds
+gap_model   mean -0.0326 (SE 0.0015)  frac > 0.02: 0.324
+gap_rot0    mean -0.0347 (SE 0.0014)  frac > 0.02: 0.298
+gap_rot1    mean -0.0379 (SE 0.0014)  frac > 0.02: 0.294
+gap_rot2    mean -0.0371 (SE 0.0013)  frac > 0.02: 0.296
+gap_rot3    mean -0.0371 (SE 0.0014)  frac > 0.02: 0.292
+gap_rot4    mean -0.0378 (SE 0.0013)  frac > 0.02: 0.284
+gap_pca     mean -0.0201 (SE 0.0015)  frac > 0.02: 0.362
+gap_scalar  mean -0.0092 (SE 0.0018)  frac > 0.02: 0.375
+cos_model   mean +0.364  frac < 0: 0.104
+cos_rot     mean +0.364  frac < 0: 0.104
+cos_rawrot  mean +0.388  frac < 0: 0.090
+cos_white   mean +0.549  frac < 0: 0.092
+cos_pred    mean +0.561  frac < 0: 0.090
+max |cos_rot - cos_model| = 1.50e-07 ; per-rater corr(gap_model, gap_rot0) = 0.905, corr(gap_model, gap_scalar) = 0.922

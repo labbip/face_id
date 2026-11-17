@@ -1,0 +1,8 @@
+     icc_est_hold  icc_est_tr  r_est_hold  r_est_tr
+dim                                                
+0           0.803       0.520       0.807     0.523
+1           0.740       0.424       0.743     0.428
+2           0.812       0.559       0.814     0.565
+3           0.743       0.464       0.752     0.470
+ICC mean over dims: est vs hold 0.774 | est vs test-retest 0.492
+held-out MA rho: z from est 0.334 | z from test-retest trials 0.316 | population 0.290 (n per fold ~168)

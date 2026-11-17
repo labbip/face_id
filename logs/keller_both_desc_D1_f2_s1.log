@@ -1,0 +1,12 @@
+subjects 55 stimuli 766 (479 odorants) observed 0.800
+fold 2: subjects train 49 test 6; odorants train 613 test 153; pop_img r on unseen odorants 0.447
+ep 0 loss 1.0609
+ep 200 loss 0.8410
+ep 400 loss 0.8242
+ep 599 loss 0.8276
+       r_pop_seen  r_pop_unseen  r_popimg_unseen  r_amort_seen  r_amort_unseen  r_direct_seen  r_direct_unseen
+n_est                                                                                                         
+10          0.542         0.499            0.251         0.538           0.257          0.499            0.219
+20          0.543         0.499            0.251         0.481           0.247          0.538            0.251
+50          0.543         0.499            0.251         0.537           0.255          0.537            0.253
+100         0.547         0.499            0.251         0.544           0.259          0.548            0.257

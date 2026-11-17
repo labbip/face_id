@@ -1,0 +1,9 @@
+./src/face_id/train.py:93: UserWarning: index_reduce() is in beta and the API may change at any time. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/Indexing.cu:1469.)
+  t2p = torch.zeros(E["n_trials"], dtype=torch.long, device=dev).index_reduce_(0, E["tidx"], E["pidx"], "amax", include_self=False)
+simulated est-vs-hold rho (cf. real ~0.23): 0.001
+pop(z=0)       hold rho 0.135 | rho with true full RDM 0.865
+amortized      hold rho 0.135 | rho with true full RDM 0.864
+direct         hold rho 0.138 | rho with true full RDM 0.836
+oracle(true w) hold rho 0.162 | rho with true full RDM 1.000
+weight recovery: corr(true logw, decoded logw) per dim | amortized: [-0.1  -0.13 -0.04 -0.07  0.17 -0.05 -0.   -0.01]
+                                                    | direct   : [ 0.27  0.16  0.26  0.11  0.08  0.15 -0.08  0.08]

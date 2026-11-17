@@ -1,0 +1,30 @@
+aadb: 68 held-out raters, 204 rater x model rows, ratings/rater median 262
+per-rater weights split-half r (model-free): mean 0.766
+mean U (energy on sign-flipped dims): free 0.068 | reliable-flip 0.061 | noise-unbiased (split-half product) 0.037 (median 0.007) | D2-model 0.024 ; cos(w_i, w_pop) mean 0.800, frac<0 0.005
+model-free split-half CV per rater: free linear r 0.467 | D1-constrained (w_pop * s, s>=0) r 0.467 | gap -0.0002 (SE 0.0031), raters with gap>0.02: 0.230
+raters with >=1 reliably flipped dim: 0.657 ; mean #reliable flips 0.91 of 8 dims
+per-dim (fold 0 seed 0): share of population weight energy, reliable-flip fraction, reliable-same fraction, model flip fraction
+ fold  seed  dim  w_pop  share_pop  relflip  relsame  flip_model  abs_r
+    0     0    0  0.130      0.111    0.000    0.857       0.000    NaN
+    0     0    1  0.057      0.022    0.000    0.714       0.000    NaN
+    0     0    2 -0.169      0.188    0.000    1.000       0.000    NaN
+    0     0    3 -0.031      0.006    0.429    0.571       0.571    NaN
+    0     0    4  0.050      0.016    0.000    0.857       0.000    NaN
+    0     0    5  0.110      0.079    0.000    0.571       0.000    NaN
+    0     0    6 -0.228      0.342    0.000    0.857       0.000    NaN
+    0     0    7 -0.190      0.236    0.000    1.000       0.000    NaN
+across fold models: energy-weighted reliable-flip fraction mean 0.026 (range 0.000-0.092)
+n raters with D2-D1 at n_est=100: 55; mean D2-D1 seen +0.0053 unseen +0.0055
+spearman(U_free, D2-D1): seen -0.043 (p=7.5e-01) unseen +0.081 (p=5.6e-01)
+spearman(U_rel, D2-D1): seen -0.032 (p=8.2e-01) unseen +0.064 (p=6.4e-01)
+spearman(U_unb, D2-D1): seen -0.091 (p=5.1e-01) unseen -0.054 (p=6.9e-01)
+spearman(U_model, D2-D1): seen -0.119 (p=3.9e-01) unseen +0.080 (p=5.6e-01)
+spearman(cos_pop, D2-D1): seen -0.138 (p=3.1e-01) unseen -0.166 (p=2.3e-01)
+spearman(gap_free_d1, D2-D1): seen -0.026 (p=8.5e-01) unseen -0.125 (p=3.6e-01)
+                    U_free       gap_free_d1       d2_minus_d1       d2_minus_d1_unseen      
+                      mean count        mean count        mean count               mean count
+U_free                                                                                       
+Q1 (least flipped)  0.0053    14     -0.0050    14      0.0072    14             0.0044    14
+Q2                  0.0281    14     -0.0043    14      0.0022    14             0.0032    14
+Q3                  0.0638    13      0.0032    13      0.0091    13             0.0035    13
+Q4 (most flipped)   0.1477    14      0.0229    14      0.0030    14             0.0108    14

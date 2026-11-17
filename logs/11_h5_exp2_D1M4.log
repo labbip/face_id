@@ -1,0 +1,21 @@
+                           acc  null_mean      p     r2
+features target                                        
+w(z)     age               NaN        NaN    NaN  0.000
+         gender          0.565      0.504  0.100    NaN
+         native_english  0.549      0.501  0.073    NaN
+         race            0.353      0.334  0.213    NaN
+         source          0.595      0.496  0.087    NaN
+         split_half_rho    NaN        NaN    NaN  0.187
+z        age               NaN        NaN    NaN -0.000
+         gender          0.564      0.502  0.047    NaN
+         native_english  0.554      0.500  0.040    NaN
+         race            0.355      0.334  0.253    NaN
+         source          0.600      0.503  0.020    NaN
+         split_half_rho    NaN        NaN    NaN  0.130
+decoded (z-scored) dissimilarity among faces of each race, by perceiver race (fold models averaged):
+                within_white  within_black  within_asian  within_same  cross
+perceiver_race                                                              
+asian                 -0.802        -0.836        -0.483       -0.707  0.342
+black                 -0.832        -0.862        -0.507       -0.734  0.355
+white                 -0.788        -0.819        -0.477       -0.695  0.336
+own-race within-race dissimilarity minus mean within-race (per participant): mean 0.0000, t-test p=5.62e-01 (n=1432)

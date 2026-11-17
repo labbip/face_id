@@ -1,0 +1,15 @@
+|w_pop| 0.435; cos(u_abs, w_pop) -0.757 (population prefers figurative if negative)
+cos(v1, u_abs) -0.976
+LAPIS: consensus r 0.439, ridge-weight split-half r 0.875
+cont sigma 0.55: consensus 0.466 reliability 0.894
+cont sigma 0.6: consensus 0.444 reliability 0.881
+cont sigma 0.65: consensus 0.424 reliability 0.867
+cont sigma 0.7: consensus 0.404 reliability 0.852
+cont sigma 0.8: consensus 0.368 reliability 0.822
+disc sigma 0.55: consensus 0.503 reliability 0.886
+disc sigma 0.6: consensus 0.473 reliability 0.870
+disc sigma 0.65: consensus 0.445 reliability 0.853
+disc sigma 0.7: consensus 0.419 reliability 0.835
+disc sigma 0.8: consensus 0.373 reliability 0.798
+cont: sigma 0.6 -> data/processed/sim_lapis_cont.csv (240000 ratings); true abstract-readout opposite to population: 0.212; true cos<0: 0.038
+disc: sigma 0.65 -> data/processed/sim_lapis_disc.csv (240000 ratings); true abstract-readout opposite to population: 0.100; true cos<0: 0.100

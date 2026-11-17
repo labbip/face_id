@@ -1,0 +1,6 @@
+trained exp2_D1_D8_M2_f5_s0_sensM in 162s; final loss 0.5739
+./src/face_id/train.py:180: RuntimeWarning: Mean of empty slice
+  r["rho_tr_all_estrdm"] = np.nanmean(ba) if ba else np.nan
+amortized
+hold rho: model 0.354 | est-RDM 0.302 | agg 0.292 | split-half(est) 0.279
+TR rho: model all 0.369 unseen 0.371 seen 0.375 | est-RDM all 0.314 | agg all 0.325 unseen 0.329

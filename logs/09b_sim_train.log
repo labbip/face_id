@@ -1,0 +1,11 @@
+simulated est-vs-hold rho (real exp1 ~0.23): 0.192
+./src/face_id/train.py:93: UserWarning: index_reduce() is in beta and the API may change at any time. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/Indexing.cu:1469.)
+  t2p = torch.zeros(E["n_trials"], dtype=torch.long, device=dev).index_reduce_(0, E["tidx"], E["pidx"], "amax", include_self=False)
+final train loss 0.5771
+pop(z=0)   hold rho 0.350 | rho with true full RDM 0.870
+amortized  hold rho 0.368 | rho with true full RDM 0.915
+direct     hold rho 0.363 | rho with true full RDM 0.899
+oracle     hold rho 0.401 | rho with true full RDM 1.000
+spearman(learned emb RDM, generating emb RDM) = 0.989
+amortized: CCA canonical corr (true log w vs decoded log w): [0.89 0.77 0.33 0.27] | per-dim corr: [0.82 0.7  0.31 0.11 0.2  0.09 0.   0.04]
+direct: CCA canonical corr (true log w vs decoded log w): [0.77 0.74 0.56 0.5 ] | per-dim corr: [0.64 0.64 0.4  0.24 0.22 0.27 0.26 0.19]

@@ -1,0 +1,33 @@
+                                   acc  null_mean      p     r2
+features         target                                        
+reliability only age               NaN        NaN    NaN -0.000
+                 gender          0.565      0.502  0.020    NaN
+                 native_english  0.557      0.494  0.047    NaN
+                 race            0.332      0.334  0.580    NaN
+                 source          0.576      0.508  0.327    NaN
+                 split_half_rho    NaN        NaN    NaN  1.000
+w(z)             age               NaN        NaN    NaN -0.001
+                 gender          0.557      0.497  0.193    NaN
+                 native_english  0.549      0.496  0.080    NaN
+                 race            0.349      0.331  0.220    NaN
+                 source          0.592      0.495  0.073    NaN
+                 split_half_rho    NaN        NaN    NaN  0.188
+z                age               NaN        NaN    NaN -0.001
+                 gender          0.559      0.499  0.107    NaN
+                 native_english  0.554      0.498  0.047    NaN
+                 race            0.348      0.335  0.267    NaN
+                 source          0.594      0.500  0.080    NaN
+                 split_half_rho    NaN        NaN    NaN  0.129
+z|reliability    age               NaN        NaN    NaN -0.001
+                 gender          0.544      0.501  0.153    NaN
+                 native_english  0.539      0.498  0.067    NaN
+                 race            0.348      0.332  0.267    NaN
+                 source          0.574      0.499  0.053    NaN
+                 split_half_rho    NaN        NaN    NaN -0.002
+decoded (z-scored) dissimilarity among faces of each race, by perceiver race (fold models averaged):
+                within_white  within_black  within_asian  within_same  cross
+perceiver_race                                                              
+asian                 -0.800        -0.835        -0.482       -0.706  0.342
+black                 -0.831        -0.860        -0.506       -0.732  0.355
+white                 -0.788        -0.819        -0.476       -0.694  0.336
+own-race within-race dissimilarity minus mean within-race (per participant): mean 0.0000, t-test p=7.57e-02 (n=1432)

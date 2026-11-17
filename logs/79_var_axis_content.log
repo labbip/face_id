@@ -1,0 +1,24 @@
+median over fold models:
+ ds                   eva   lapis
+n                 17.500  55.000
+var_share1         0.398   0.635
+part_ratio         3.946   2.277
+cos_v1_pop         0.302   0.591
+pop_proj_over_sd   0.626   0.624
+frac_opposite      0.294   0.279
+bimodality         0.378   0.490
+var_over_pop       0.747   1.223
+cos_neg            0.000   0.091
+rho_s_abs            NaN  -0.934
+rho_resid_abs        NaN   0.217
+r_loading_absr       NaN  -0.976
+rho_s_cat1        -0.165     NaN
+rho_s_cat2         0.250     NaN
+rho_s_cat3        -0.135     NaN
+rho_s_cat4         0.486     NaN
+rho_s_cat5        -0.146     NaN
+rho_s_cat6         0.032     NaN
+
+LAPIS rho(s, abs_pref) per fold model: min -0.962 max -0.882; sign-consistent: True
+EVA rho(s, category preference) median per category: {'rho_s_cat1': -0.165, 'rho_s_cat2': 0.25, 'rho_s_cat3': -0.135, 'rho_s_cat4': 0.486, 'rho_s_cat5': -0.146, 'rho_s_cat6': 0.032}
+figures written

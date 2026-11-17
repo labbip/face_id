@@ -1,0 +1,12 @@
+faces 4977 (train 4921), annotators 1283 (train 1155, test 128), triplets 623540
+ep 0 loss 1.2683 acc 0.4046
+ep 100 loss 0.8331 acc 0.6250
+ep 200 loss 0.8147 acc 0.6316
+ep 300 loss 0.8076 acc 0.6336
+ep 399 loss 0.8056 acc 0.6348
+         acc_main  acc_main_direct  acc_novel  acc_same  agree_modal_loo  acc_novel_direct
+n_est                                                                                     
+20         0.6178           0.6114        NaN       NaN              NaN               NaN
+50         0.6211           0.6194        NaN       NaN              NaN               NaN
+100        0.6271           0.6248        NaN       NaN              NaN               NaN
+1000000    0.6269           0.6276     0.6208    0.6909           0.6443            0.6152

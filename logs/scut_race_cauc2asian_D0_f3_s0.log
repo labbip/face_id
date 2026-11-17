@@ -1,0 +1,16 @@
+scut: raters 60 items 5500 observed 1.000
+fold 3 (cauc2asian): raters train 54 test 6; items train 1500 test 4000; pop_img r on unseen items 0.786
+ep 0 loss 1.0361
+ep 100 loss 0.4449
+ep 200 loss 0.4244
+ep 300 loss 0.4259
+ep 400 loss 0.4249
+ep 500 loss 0.4191
+ep 599 loss 0.4266
+       r_pop_seen  r_pop_unseen  r_popimg_unseen  r_amort_seen  r_amort_unseen
+n_est                                                                         
+10          0.756         0.784            0.622         0.757           0.621
+20          0.755         0.784            0.622         0.756           0.621
+50          0.755         0.784            0.622         0.756           0.621
+100         0.755         0.784            0.622         0.756           0.621
+500         0.757         0.784            0.622         0.757           0.621

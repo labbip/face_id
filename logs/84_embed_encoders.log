@@ -1,0 +1,19 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+lapis clipl (11723, 768)
+lapis dinov2b (11723, 768)
+~/.cache/uv/archive-v0/P7nJoEEmmAyIC8RJ/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 700
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+~/.cache/uv/archive-v0/P7nJoEEmmAyIC8RJ/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 34377
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+~/.cache/uv/archive-v0/P7nJoEEmmAyIC8RJ/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 34675
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+~/.cache/uv/archive-v0/P7nJoEEmmAyIC8RJ/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 33723
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+~/.cache/uv/archive-v0/P7nJoEEmmAyIC8RJ/lib/python3.12/site-packages/PIL/TiffImagePlugin.py:946: UserWarning: Tag data larger than file. Skipping tag 37724
+  warnings.warn(f"Tag data larger than file. Skipping tag {tag}")
+eva clipl (4070, 768)
+eva dinov2b (4070, 768)
+aadb clipl (9958, 768)
+aadb dinov2b (9958, 768)
+london clipl (102, 768)
+london dinov2b (102, 768)

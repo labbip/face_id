@@ -1,0 +1,8 @@
+sim D1: target rho(true, pop) = 0.865 (D1 sims, wsd 0.6); D2 eps = 0.222 -> 0.865
+simulated est-vs-hold rho: 0.225
+./src/face_id/train.py:93: UserWarning: index_reduce() is in beta and the API may change at any time. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/Indexing.cu:1469.)
+  t2p = torch.zeros(E["n_trials"], dtype=torch.long, device=dev).index_reduce_(0, E["tidx"], E["pidx"], "amax", include_self=False)
+pop        hold rho 0.365 | rho with true full RDM 0.846
+amortized  hold rho 0.385 | rho with true full RDM 0.890
+direct     hold rho 0.388 | rho with true full RDM 0.902
+oracle     hold rho 0.425 | rho with true full RDM 1.000

@@ -1,0 +1,6 @@
+label,source_file,statistic,coef,n,n_unit,p,p_kind,n_perm,n_models
+"Sign check, london: reversed weight energy vs D2 - D1",sign_check_london_gain.csv,Spearman rho,-0.1081891621849617,2500,raters,5.8713434619061657e-08,t approximation,,
+"Sign check, scut: reversed weight energy vs D2 - D1",sign_check_scut_gain.csv,Spearman rho,0.0907430842243765,60,raters,0.4904888895771506,t approximation,,
+"Sign check, eva: reversed weight energy vs D2 - D1",sign_check_eva_gain.csv,Spearman rho,0.2732106470990921,144,raters,0.0009222782846136,t approximation,,
+"Sign check, lapis: reversed weight energy vs D2 - D1",sign_check_lapis_gain.csv,Spearman rho,0.18796938262621,551,raters,8.916284174460099e-06,t approximation,,
+"Sign check, jester: reversed weight energy vs D2 - D1",sign_check_jester_gain.csv,Spearman rho,0.0405646342991813,5510,raters,0.0025983732229652,t approximation,,

@@ -1,0 +1,5 @@
+text -> z  out-of-fold R^2 per dim: [ 0.307  0.005  0.13  -0.017] | corr per dim: [0.558 0.159 0.383 0.151]
+z_arr                  hold rho 0.335
+z_text                 hold rho 0.302
+z_wc                   hold rho 0.291
+pop                    hold rho 0.285

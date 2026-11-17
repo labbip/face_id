@@ -1,0 +1,11 @@
+jester: raters 11067 items 150 observed 0.608
+fold 4 (random): raters train 9960 test 1107; items train 120 test 30; pop_img r on unseen items 0.599
+ep 0 loss 1.0660
+ep 100 loss 0.8801
+ep 200 loss 0.8708
+ep 299 loss 0.8687
+       r_pop_seen  r_pop_unseen  r_popimg_unseen  r_amort_seen  r_amort_unseen  r_direct_seen  r_direct_unseen
+n_est                                                                                                         
+10          0.347         0.382            0.238         0.366           0.179          0.304            0.158
+20          0.348         0.383            0.238         0.393           0.194          0.359            0.181
+50          0.346         0.387            0.263         0.413           0.233          0.407            0.235

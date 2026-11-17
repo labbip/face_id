@@ -1,0 +1,11 @@
+fold 9: raters train 158 test 17; images train 3256 test 814; train ratings 82674
+ep 0 loss 1.0345
+ep 100 loss 0.7592
+ep 200 loss 0.7693
+ep 299 loss 0.7641
+       r_pop_seen  r_amort_seen  r_pop_unseen  r_amort_unseen
+n_est                                                        
+10          0.455         0.410         0.425           0.429
+20          0.460         0.419         0.425           0.429
+50          0.454         0.410         0.425           0.429
+100         0.453         0.412         0.425           0.429

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "Face-ID: analysis code and aggregate results for 'The shape of individual differences in judgment: shared axes, personal weights, and when their spread crosses the consensus'"
+type: software
+authors:
+  - family-names: "Higashi"
+    given-names: "Hiroshi"
+    affiliation: "Faculty of Engineering Science, Kansai University"
+repository-code: "https://github.com/labbip/face_id"
+license: MIT
+version: "1.0.0"

@@ -1,0 +1,23 @@
+ep 0 loss 0.9871
+ep 50 loss 0.6213
+ep 100 loss 0.6071
+ep 150 loss 0.5992
+ep 200 loss 0.5990
+ep 250 loss 0.5960
+ep 299 loss 0.5955
+./.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+./.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3038: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+./scripts/23_london_faceid.py:91: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  row["r_pop"] = np.corrcoef(p0[~mask], y[~mask])[0, 1]; row["rho_pop"] = spearmanr(p0[~mask], y[~mask])[0]
+./scripts/23_london_faceid.py:94: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  row["r_amort"] = np.corrcoef(pr[~mask], y[~mask])[0, 1]; row["rho_amort"] = spearmanr(pr[~mask], y[~mask])[0]
+./scripts/23_london_faceid.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  row["r_direct"] = np.corrcoef(pd_[~mask], y[~mask])[0, 1]; row["rho_direct"] = spearmanr(pd_[~mask], y[~mask])[0]
+       r_pop  rho_pop  r_amort  rho_amort  r_direct  rho_direct
+n_est                                                          
+5      0.589    0.573    0.576      0.559     0.515       0.495
+10     0.587    0.571    0.608      0.590     0.554       0.539
+20     0.591    0.575    0.625      0.605     0.599       0.583
+40     0.587    0.570    0.631      0.610     0.627       0.609

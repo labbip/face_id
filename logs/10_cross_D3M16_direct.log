@@ -1,0 +1,5 @@
+  fit = smf.mixedlm("rho ~ x", df, groups=df["k"]).fit()
+  fit = smf.mixedlm("rho ~ x", df, groups=df["k"]).fit()
+own-z rho 0.232 | other-z rho 0.124 | population rho 0.190
+mixed model rho ~ dz (random intercept k): slope -0.0205 (p=1.00e-129); spearman(dz, rho) = -0.191
+mixed model rho ~ dpred (random intercept k): slope -0.0509 (p=0.00e+00); spearman(dz, rho) = -0.397

@@ -1,0 +1,10 @@
+  c /= stddev[:, None]
+  c /= stddev[None, :]
+     icc_est_hold  icc_est_tr  r_est_hold  r_est_tr
+dim                                                
+0           0.647       0.285       0.654     0.322
+1           0.678       0.296       0.684     0.337
+2           0.704       0.385       0.708     0.435
+3           0.666       0.280       0.671     0.321
+ICC mean over dims: est vs hold 0.674 | est vs test-retest 0.312
+held-out MA rho: z from est 0.217 | z from test-retest trials 0.204 | population 0.193 (n per fold ~126)

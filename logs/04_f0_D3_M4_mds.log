@@ -1,0 +1,11 @@
+trained exp1_D3_D8_M4_f0_s0_mds in 123s; final loss 0.7465
+./src/face_id/train.py:177: RuntimeWarning: Mean of empty slice
+  r["rho_tr_all_estrdm"] = np.nanmean(ba) if ba else np.nan
+./src/face_id/train.py:90: UserWarning: index_reduce() is in beta and the API may change at any time. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/Indexing.cu:1469.)
+  t2p = torch.zeros(E["n_trials"], dtype=torch.long, device=dev).index_reduce_(0, E["tidx"], E["pidx"], "amax", include_self=False)
+amortized
+hold rho: model 0.193 | est-RDM 0.225 | agg 0.190 | split-half(est) 0.231
+TR rho: model all 0.241 unseen 0.243 seen 0.092 | est-RDM all 0.149 | agg all 0.232 unseen 0.232
+direct
+hold rho: model 0.193 | est-RDM 0.225 | agg 0.190 | split-half(est) 0.231
+TR rho: model all 0.241 unseen 0.242 seen 0.092 | est-RDM all 0.149 | agg all 0.232 unseen 0.232

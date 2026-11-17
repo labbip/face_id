@@ -1,0 +1,16 @@
+== noise 0.3
+simulated est-vs-hold rho (cf. real ~0.23): 0.363
+pop(z=0)       hold rho 0.485 | rho with true full RDM 0.865
+amortized      hold rho 0.485 | rho with true full RDM 0.864
+direct         hold rho 0.504 | rho with true full RDM 0.896
+oracle(true w) hold rho 0.555 | rho with true full RDM 1.000
+weight recovery: corr(true logw, decoded logw) per dim | amortized: [ 0.01 -0.08 -0.01  0.03  0.19 -0.01 -0.11 -0.15]
+                                                    | direct   : [0.68 0.27 0.35 0.32 0.21 0.32 0.11 0.38]
+== noise 0.5
+simulated est-vs-hold rho (cf. real ~0.23): 0.155
+pop(z=0)       hold rho 0.324 | rho with true full RDM 0.865
+amortized      hold rho 0.323 | rho with true full RDM 0.864
+direct         hold rho 0.329 | rho with true full RDM 0.879
+oracle(true w) hold rho 0.370 | rho with true full RDM 1.000
+weight recovery: corr(true logw, decoded logw) per dim | amortized: [-0.05 -0.19 -0.06 -0.04  0.18 -0.05  0.01 -0.  ]
+                                                    | direct   : [0.58 0.22 0.29 0.27 0.07 0.19 0.1  0.33]

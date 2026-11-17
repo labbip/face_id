@@ -1,0 +1,12 @@
+faces 100 annotators 1219 (train 1097, test 122), triplets 262767
+ep 0 loss 1.1050 acc 0.3702
+ep 100 loss 0.9464 acc 0.5620
+ep 200 loss 0.8928 acc 0.5953
+ep 300 loss 0.8776 acc 0.6040
+ep 399 loss 0.8730 acc 0.6057
+       acc_amort  acc_direct
+n_est                       
+10        0.6011      0.5941
+20        0.6046      0.6005
+40        0.6083      0.6058
+60        0.6095      0.6065

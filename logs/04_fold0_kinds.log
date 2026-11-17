@@ -1,0 +1,12 @@
+trained exp1_D1_D8_M4_f0_s0_smoke2 in 103s; final loss 0.7480
+  r["rho_tr_all_estrdm"] = np.nanmean(ba) if ba else np.nan
+hold rho: model 0.199 | est-RDM 0.224 | agg 0.229 | split-half(est) 0.218
+TR rho: model all 0.238 unseen 0.240 seen 0.120 | est-RDM all 0.195 | agg all 0.234 unseen 0.234
+trained exp1_D2_D8_M4_f0_s0_smoke2 in 104s; final loss 0.7671
+  r["rho_tr_all_estrdm"] = np.nanmean(ba) if ba else np.nan
+hold rho: model 0.184 | est-RDM 0.223 | agg 0.225 | split-half(est) 0.224
+TR rho: model all 0.227 unseen 0.229 seen 0.132 | est-RDM all 0.174 | agg all 0.234 unseen 0.234
+trained exp1_D3_D8_M4_f0_s0_smoke2 in 105s; final loss 0.7458
+  r["rho_tr_all_estrdm"] = np.nanmean(ba) if ba else np.nan
+hold rho: model 0.198 | est-RDM 0.234 | agg 0.228 | split-half(est) 0.220
+TR rho: model all 0.239 unseen 0.241 seen 0.120 | est-RDM all 0.149 | agg all 0.234 unseen 0.234

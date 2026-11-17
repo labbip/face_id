@@ -1,0 +1,18 @@
+agg vs Lin 100-trait Euclidean RDM: rho=0.567
+agg vs Lin 4-factor Euclidean RDM: rho=0.559
+top single traits: [('Feminine', np.float64(0.583)), ('Sociable', np.float64(0.448)), ('Affectionate', np.float64(0.444)), ('Charismatic', np.float64(0.436)), ('Beautiful', np.float64(0.425)), ('Loser', np.float64(0.423)), ('Emotional', np.float64(0.423)), ('Strong', np.float64(0.419)), ('Healthy', np.float64(0.398)), ('Curious', np.float64(0.389))]
+bottom: [('Humble', np.float64(0.091)), ('Thrifty', np.float64(0.09)), ('Shallow', np.float64(0.078)), ('Manipulative', np.float64(0.077)), ('Sarcastic', np.float64(0.06))]
+model embedding RDM vs agg: 0.854 | vs Lin100: 0.564 | vs Lin4: 0.556
+CCA canonical correlations (embedding vs 4 factors): [np.float64(0.955), np.float64(0.829), np.float64(0.784), np.float64(0.675)]
+  Warmth: LOO-R2 = 0.625
+  Competence: LOO-R2 = 0.682
+  Femininity: LOO-R2 = 0.612
+  Youth: LOO-R2 = 0.580
+dim 0: [('Affectionate', np.float64(-0.87)), ('Criminal', np.float64(0.86)), ('Emotional', np.float64(-0.84)), ('Feminine', np.float64(-0.83))]
+dim 1: [('Jealous', np.float64(-0.57)), ('Defensive', np.float64(-0.56)), ('Nosey', np.float64(-0.54)), ('Natural', np.float64(0.53))]
+dim 2: [('Confident', np.float64(0.68)), ('Courageous', np.float64(0.6)), ('Passive', np.float64(-0.54)), ('Leader-like', np.float64(0.54))]
+dim 3: [('White', np.float64(-0.62)), ('Prejudiced', np.float64(-0.56)), ('Compulsive', np.float64(-0.42)), ('Serious', np.float64(-0.38))]
+dim 4: [('Mature', np.float64(-0.58)), ('Thrifty', np.float64(-0.55)), ('Youthful', np.float64(0.53)), ('Wise', np.float64(-0.52))]
+dim 5: [('Weird', np.float64(-0.3)), ('Atypical', np.float64(-0.3)), ('Healthy', np.float64(0.28)), ('Disorderly', np.float64(-0.25))]
+dim 6: [('Disorderly', np.float64(0.34)), ('Rebellious', np.float64(0.33)), ('Reserved', np.float64(-0.33)), ('Careful', np.float64(-0.25))]
+dim 7: [('Determined', np.float64(-0.34)), ('Persistent', np.float64(-0.3)), ('Sarcastic', np.float64(-0.3)), ('Reserved', np.float64(0.29))]
