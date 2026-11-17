@@ -4,7 +4,8 @@ Nothing derived from XPASS-Vis is included (result files, rows of the statistics
 Included: src/, scripts/ (without the internal HTML report builders), pyproject.toml, uv.lock, figures/, aggregate results
 (results/*.csv without participant rows, results/figdata/, paper_numbers.md, paper_numbers_agg.json, results/sim_recovery*/ JSON,
 results/sim_lapis_like/calibration.csv), logs of the jobs behind the reported results (absolute paths replaced), and the documents in release_docs/.
-Checks (any hit aborts and removes release/): identifier columns in CSV files, model / array / pickle files, absolute home paths, e-mail
+release/ is also the working tree of the public repository (its .git is kept across rebuilds; commit and push there by hand after a rebuild).
+Checks (any hit aborts and empties release/): identifier columns in CSV files, model / array / pickle files, absolute home paths, e-mail
 addresses, the host name, the user name, long hexadecimal strings (hashed identifiers), references to internal documents, files over 1 MB.  --final additionally refuses unfilled <PLACEHOLDERS> in the documents.
 Run: uv run python -I scripts/90_build_public_release.py [--final]
 """
@@ -27,7 +28,10 @@ def put(src, dst=None, scrub=False):
     if scrub:
         t = open(src, errors="replace").read(); t = re.sub(r"/home/[A-Za-z0-9_.-]+/Research/20[12]61020_face", ".", t); t = HOME.sub("~", t); t = re.sub(r"/tmp/claude-[^\s\"']+", "<tmp>", t); t = re.sub(r"\b%s\b" % re.escape(USER), "user", t); open(dst, "w").write(t)
     else: shutil.copy2(src, dst)
-if os.path.exists(OUT): shutil.rmtree(OUT)
+def clear():      # empty release/ but keep its .git (release/ is the working tree of the public repository; its history must survive a rebuild)
+    for x in os.listdir(OUT) if os.path.exists(OUT) else []:
+        if x != ".git": p_ = os.path.join(OUT, x); shutil.rmtree(p_) if os.path.isdir(p_) else os.remove(p_)
+clear()
 n = {}
 def count(k): n[k] = n.get(k, 0) + 1
 # --- code
@@ -57,11 +61,12 @@ for f in sorted(glob.glob("logs/*")):
 for f in sorted(glob.glob("release_docs/*")): put(f, ".gitignore" if os.path.basename(f) == "gitignore" else os.path.basename(f)); count("docs")
 # --- results/paper_numbers.md of the release: generated inside release/ from its own aggregate files (so it has no XPASS-Vis section and the reduced statistics tables)
 r = subprocess.run([sys.executable, "-I", "scripts/73_build_paper_numbers.py"], cwd=OUT, env=dict(os.environ, FIGDATA="read"), capture_output=True, text=True)
-if r.returncode: shutil.rmtree(OUT); sys.exit("scripts/73 failed inside release/:\n" + r.stderr[-2000:])
+if r.returncode: clear(); sys.exit("scripts/73 failed inside release/:\n" + r.stderr[-2000:])
 count("results")
 # --- checks
 bad, todo = [], []
-for d, _, fs in os.walk(OUT):
+for d, ds, fs in os.walk(OUT):
+    if ".git" in ds: ds.remove(".git")
     for x in fs:
         p = os.path.join(d, x); rel = os.path.relpath(p, OUT)
         if x.endswith(BAD_EXT): bad.append((rel, "forbidden file type"))
@@ -79,10 +84,10 @@ for d, _, fs in os.walk(OUT):
         if d != OUT and re.search(r"\b%s\b" % re.escape(USER), t): bad.append((rel, "user name"))      # top-level documents may name the authors
         if HEX.search(t) and rel != "uv.lock": bad.append((rel, "long hexadecimal string (hashed identifier?): " + HEX.search(t).group(0)[:12] + "..."))
         if d == OUT and re.search(r"<[A-Z_]{3,}>", t): todo.append((rel, sorted(set(re.findall(r"<[A-Z_]{3,}>", t)))))
-size = sum(os.path.getsize(os.path.join(d, x)) for d, _, fs in os.walk(OUT) for x in fs)
+size = sum(os.path.getsize(os.path.join(d, x)) for d, _, fs in os.walk(OUT) if "/.git" not in d and not d.endswith(".git") for x in fs)
 print("copied:", n, f"| total {size / 1e6:.1f} MB"); print(f"results/*.csv not copied (participant-level): {len(skipped)}")
 for r in todo: print("placeholders to fill before publication:", *r)
 if bad or (a.final and todo):
     for r in bad: print("CHECK FAILED:", *r)
-    shutil.rmtree(OUT); sys.exit("release/ removed: fix the problems above" if bad else "release/ removed: --final with unfilled placeholders")
+    clear(); sys.exit("release/ emptied: fix the problems above" if bad else "release/ emptied: --final with unfilled placeholders")
 print("all checks passed ->", OUT)
