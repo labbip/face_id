@@ -2,9 +2,9 @@
 
 Code, run logs, aggregate results and figure source data for the paper
 
-> Hiroshi Higashi. The shape of individual differences in judgment: shared axes, personal weights, and when their spread crosses the consensus. (2026).
+> Hiroshi Higashi. The shape of individual differences in judgment: shared axes, personal weights, and when their spread crosses the consensus. (2026). arXiv:2611.22440. https://arxiv.org/abs/2611.22440
 
-Archived version of this repository (Zenodo): https://doi.org/10.5281/zenodo.24302873. The link to the preprint will be added here when it is available.
+Archived version of this repository (Zenodo): https://doi.org/10.5281/zenodo.24302873.
 
 Face-ID is a two-factor model that reconstructs a person's judgment space (face impressions, aesthetic ratings, similarity judgments) from a
 small number of that person's judgments: a shared stimulus embedding plus a low-dimensional latent variable per person, inferred by an
@@ -118,4 +118,4 @@ Code: MIT (`LICENSE`). Aggregate results, figure source data and figures: CC BY 
 
 ## Citation
 
-See `CITATION.cff`. Archive: https://doi.org/10.5281/zenodo.24302873
+See `CITATION.cff`. Preprint: https://arxiv.org/abs/2611.22440. Archive: https://doi.org/10.5281/zenodo.24302873

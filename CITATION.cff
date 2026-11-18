@@ -10,3 +10,16 @@ repository-code: "https://github.com/labbip/face_id"
 license: MIT
 version: "1.0.0"
 doi: "10.5281/zenodo.24302873"
+identifiers:
+  - type: other
+    value: "arXiv:2611.22440"
+    description: "Preprint of the paper"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Higashi"
+      given-names: "Hiroshi"
+  title: "The shape of individual differences in judgment: shared axes, personal weights, and when their spread crosses the consensus"
+  year: 2026
+  journal: "arXiv"
+  url: "https://arxiv.org/abs/2611.22440"
